@@ -1,4 +1,6 @@
 language: php
 php:
   - 5.2
-
+script:
+  - php --version
+  - php main.php
